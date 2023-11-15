@@ -12,9 +12,9 @@ javac rsa/*.java
 
 ## How To
 
-1. Generate a key pair
-2. Decrypt
-3. Encrypt
+1. [Generate a key pair](#generate-a-key-pair)
+2. [Decrypt](#decrypt-a-message)
+3. [Encrypt](#encrypt-a-message)
 
 ## Generate a key pair
 
@@ -24,7 +24,7 @@ Before encrypting or dencrypting, you will first need to generate a key-pair.  I
 java rsa/GenerateKeyPair 2048
 ~~~
 
-or 
+or
 
 ~~~bash
 java rsa/GenerateKeyPair 1024
