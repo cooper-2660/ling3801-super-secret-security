@@ -38,6 +38,12 @@ public class Encrypt {
                 }
 
             }
+
+            if (n.equals(BigInteger.ONE) || e.equals(BigInteger.ONE)) {
+                System.out.println("ERROR: keys were not properly formatted or read-in");
+                System.exit(1);
+            }
+            
         } catch (FileNotFoundException err) {
             // sout
         } catch (IOException err) {
